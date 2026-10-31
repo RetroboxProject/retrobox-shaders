@@ -1,4 +1,14 @@
-## AUTO = none
+## BASE: applies with every shader set (and alone with NONE)
+# retrobox-core loads this file first and the chosen set's file on top of it,
+# so whatever a set doesn't define (e.g. the Game Boy colorization below) is
+# kept. A set can still override any field, also per system.
+#
+# Shader set used when none is chosen in EmulationStation (AUTO): a folder of
+# configs/. With it unset, AUTO behaves as NONE. "retro" smooths the pixels
+# with sharp-bilinear-simple (bilinear scaling on top of the nearest integer
+# scale) instead of plain nearest-neighbour.
+auto: retro
+
 default:
   # shader affects retroarch shaders
   shader:
