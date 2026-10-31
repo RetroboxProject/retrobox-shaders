@@ -1,0 +1,108 @@
+## RETRO
+default:
+  # shader affects retroarch shaders
+  shader: pixel-art-scaling/sharp-bilinear-simple
+  # scanline affect fba2x
+  scanline: false
+snes:
+  shader: pixel-art-scaling/sharp-bilinear-simple
+nes:
+  shader: pixel-art-scaling/sharp-bilinear-simple
+n64:
+  shader: pixel-art-scaling/sharp-bilinear-simple
+gba:
+  shader: handheld/bevel
+gb:
+  shader: handheld/bevel
+gbc:
+  shader: handheld/bevel
+fds:
+  shader: pixel-art-scaling/sharp-bilinear-simple
+virtualboy:
+  shader: pixel-art-scaling/sharp-bilinear-simple
+# Sega
+sg1000:
+  shader: pixel-art-scaling/sharp-bilinear-simple
+mastersystem:
+  shader: pixel-art-scaling/sharp-bilinear-simple
+megadrive:
+  shader: pixel-art-scaling/sharp-bilinear-simple
+gamegear:
+  shader: pixel-art-scaling/sharp-bilinear-simple
+sega32x:
+  shader: pixel-art-scaling/sharp-bilinear-simple
+segacd:
+  shader: pixel-art-scaling/sharp-bilinear-simple
+# Arcade
+neogeo:
+  shader: pixel-art-scaling/sharp-bilinear-simple
+neogeocd:
+  shader: pixel-art-scaling/sharp-bilinear-simple
+mame:
+  shader: pixel-art-scaling/sharp-bilinear-simple
+fba:
+  shader: pixel-art-scaling/sharp-bilinear-simple
+naomi:
+  shader: pixel-art-scaling/sharp-bilinear-simple
+atomiswave:
+  shader: pixel-art-scaling/sharp-bilinear-simple
+#
+ngp:
+  shader: handheld/bevel
+ngpc:
+  shader: handheld/bevel
+gw:
+  shader: pixel-art-scaling/sharp-bilinear-simple
+vectrex:
+  shader: handheld/bevel
+lynx:
+  shader: handheld/bevel
+lutro:
+  shader: pixel-art-scaling/sharp-bilinear-simple
+wswan:
+  shader: handheld/bevel
+wswanc:
+  shader: handheld/bevel
+pcengine:
+  shader: pixel-art-scaling/sharp-bilinear-simple
+pcenginecd:
+  shader: pixel-art-scaling/sharp-bilinear-simple
+supergrafx:
+  shader: pixel-art-scaling/sharp-bilinear-simple
+atari800:
+  shader: pixel-art-scaling/sharp-bilinear-simple
+atari2600:
+  shader: pixel-art-scaling/sharp-bilinear-simple
+atari5200:
+  shader: pixel-art-scaling/sharp-bilinear-simple
+atari7800:
+  shader: pixel-art-scaling/sharp-bilinear-simple
+prboom:
+  shader: pixel-art-scaling/sharp-bilinear-simple
+psx:
+  shader: pixel-art-scaling/sharp-bilinear-simple
+colecovision:
+  shader: pixel-art-scaling/sharp-bilinear-simple
+# Computers
+msx:
+  shader: pixel-art-scaling/sharp-bilinear-simple
+msx1:
+  shader: pixel-art-scaling/sharp-bilinear-simple
+msx2:
+  shader: pixel-art-scaling/sharp-bilinear-simple
+amiga:
+  shader: pixel-art-scaling/sharp-bilinear-simple
+amstradcpc:
+  shader: pixel-art-scaling/sharp-bilinear-simple
+atarist:
+  shader: pixel-art-scaling/sharp-bilinear-simple
+zxspectrum:
+  shader: pixel-art-scaling/sharp-bilinear-simple
+odyssey2:
+  shader: pixel-art-scaling/sharp-bilinear-simple
+zx81:
+  shader: pixel-art-scaling/sharp-bilinear-simple
+pcfx:
+  shader: pixel-art-scaling/sharp-bilinear-simple
+x68000:
+  shader: pixel-art-scaling/sharp-bilinear-simple

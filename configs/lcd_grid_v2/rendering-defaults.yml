@@ -1,0 +1,5 @@
+default:
+  # shader affects retroarch shaders
+  shader: handheld/lcd-grid-v2
+nds:
+  shader: handheld/lcd1x
